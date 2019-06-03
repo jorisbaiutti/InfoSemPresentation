@@ -1,0 +1,20 @@
+\frametitle{lifecycle and probes}
+\begin{itemize}
+    \item ExecAction
+    \item TCPSocketAction
+    \item HTTPGetAction
+\end{itemize}
+    \begin{lstlisting}[language=json,firstnumber=1]
+    livenessProbe:
+          httpGet:
+            path: /status/health
+            port: 80
+          initialDelaySeconds: 90
+          timeoutSeconds: 10
+\end{lstlisting}
+\textbf{Restart policies}
+\begin{itemize}
+    \item Always
+    \item OnFailure
+    \item Never
+\end{itemize}

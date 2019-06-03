@@ -2,7 +2,7 @@
 
 
 \title{kubernetes}
-\author{Joris Baiutti}
+\author{Author: Joris Baiutti, Expert: Dr. Mascha Kurpicz-Briki}
 \institute{Berner Fachhochschule}
 \date{\today}
 
@@ -51,24 +51,28 @@
 
 \begin{frame}
 \frametitle{Classic application deployment process}
+foreach environment:
 \begin{enumerate}
     \item Server staging
     \item Web server installation
-    \item install all depencencies
+    \item install all dependencies
     \item Web Server configuration
-    \item install forgotten de
+    \item install forgotten dependencies
+    \item copy binaries
 \end{enumerate}
+The state of the server and application changes over time
     
 \end{frame}
 
 \begin{frame}
-\frametitle{What we need to deliver applications and changes fast to the desired systems}
+\frametitle{What we need to deliver applications and changes fast}
 \begin{itemize}
     \item Automated deployment
     \item Versioning
     \item Infrastructure as Code
     \item No dependency hell
-    \item Consistent environment (from dev to production)
+    \item Consistent environment (from dev to production)\\ 
+    itWorkedonMyMachine
     \item Immutable
     \item Automated testing
 \end{itemize}
@@ -113,8 +117,8 @@ Isolated Artifact which shares the kernel and if possible libraries
 \\
     \begin{itemize}
         \item abstraction of infrastructure
-        \item desired state
-        \item automation
+        \item \alert{desired state}
+        \item \alert{automation}
         \item scaling
         \item self healing
     \end{itemize}
@@ -165,16 +169,21 @@ Isolated Artifact which shares the kernel and if possible libraries
     \end{itemize}
     \column{0.5\textwidth}
     \begin{itemize}
-        \item Kubelet
+        \item Kubelet (worker agent)
         \item Container runtime
-        \item Kube proxy
+        \item Kube proxy (ip tables)
     \end{itemize}
     \end{columns}
 \end{frame}
 
 
 \begin{frame}
-\frametitle{What is a pod}
+\frametitle{Pod}
+    \begin{itemize}
+        \item one network interface
+        \item one or more pods
+        \item one container is usually one pod
+    \end{itemize}
     \begin{figure}
         \includegraphics[width=\linewidth]{images/Pods.png}
     \end{figure}
@@ -229,6 +238,13 @@ Pods are usually deployed through pod controllers
 \frametitle{Demo}
     
 \end{frame}
+
+\begin{frame}
+    \frametitle{Possible deployment process}
+        \begin{figure}
+            \includegraphics[width=\linewidth]{images/process.JPG}
+        \end{figure}
+    \end{frame}
 
 \begin{frame}
 \frametitle{Conclusion / Result}
