@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.27)  3 JUN 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.27)  8 JUN 2019 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -684,15 +684,15 @@ Dictionary: translator-theorem-dictionary, Language: English
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 78.
  (c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [3
@@ -703,7 +703,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 <images/ContainerComparsion.png, id=120, 903.375pt x 501.875pt>
 File: images/ContainerComparsion.png Graphic file (type png)
 <use images/ContainerComparsion.png>
-Package pdftex.def Info: images/ContainerComparsion.png  used on input line 98.
+Package pdftex.def Info: images/ContainerComparsion.png  used on input line 97.
 (pdftex.def)             Requested size: 307.28987pt x 170.71947pt.
  [5
 
@@ -720,7 +720,7 @@ Package pdftex.def Info: images/ContainerComparsion.png  used on input line 98.
 <images/KubernetesOverview.png, id=227, 1681.28125pt x 983.675pt>
 File: images/KubernetesOverview.png Graphic file (type png)
 <use images/KubernetesOverview.png>
-Package pdftex.def Info: images/KubernetesOverview.png  used on input line 150.
+Package pdftex.def Info: images/KubernetesOverview.png  used on input line 149.
 (pdftex.def)             Requested size: 307.28987pt x 179.78561pt.
  [9
 
@@ -730,7 +730,7 @@ Package pdftex.def Info: images/KubernetesOverview.png  used on input line 150.
 <images/Pods.png, id=280, 1224.575pt x 381.425pt>
 File: images/Pods.png Graphic file (type png)
 <use images/Pods.png>
-Package pdftex.def Info: images/Pods.png  used on input line 190.
+Package pdftex.def Info: images/Pods.png  used on input line 189.
 (pdftex.def)             Requested size: 307.28987pt x 95.71103pt.
  [11
 
@@ -745,17 +745,9 @@ Package pdftex.def Info: images/Pods.png  used on input line 190.
 
 ] [15
 
-]
-<images/process.JPG, id=409, 684.84428pt x 370.81393pt>
-File: images/process.JPG Graphic file (type jpg)
-<use images/process.JPG>
-Package pdftex.def Info: images/process.JPG  used on input line 247.
-(pdftex.def)             Requested size: 307.28987pt x 166.38943pt.
- [16
+] [16
 
- <./images/process.JPG>] [17
-
-] [18
+] [17
 
 ]
 \tf@nav=\write6
@@ -767,27 +759,29 @@ Package pdftex.def Info: images/process.JPG  used on input line 247.
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18544 strings out of 492616
- 341076 string characters out of 6132767
+ 18537 strings out of 492616
+ 340963 string characters out of 6132767
  468420 words of memory out of 5000000
- 22022 multiletter control sequences out of 15000+600000
+ 22018 multiletter control sequences out of 15000+600000
  14646 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,808b,1197s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Navigation18} has been referenced but does not exist, replaced by a fixed one
+
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (18 pages, 297637 bytes).
+Output written on main.pdf (17 pages, 175966 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 37 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
